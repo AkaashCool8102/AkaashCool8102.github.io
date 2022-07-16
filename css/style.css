@@ -275,7 +275,6 @@ header {
   display: inline-block;
   color: #4d4d4d;
   transition: all 0.5s ease;
-  font-size: 4%;
 }
 
 .menu a:hover {
