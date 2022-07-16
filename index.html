@@ -26,6 +26,16 @@
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
 
 </head>
 
@@ -470,6 +480,94 @@
     </section>
             <!-- features section ends -->
 
+            <!-- recent post section starts here -->
+            <div class="post-container owl-carousel">
+        <div class="post">
+          <div class="image">
+            <img src="images/digital3.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <i class="fas fa-calendar-alt"></i>July 17,2022
+            </div>
+            <a href="#" class="title">post title goes here</a>
+            <p>lorem ipsum dolor, sit amet construction</p>
+            <a href="#" class="link">read more</a>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="image">
+            <img src="images/digital2.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <i class="fas fa-calendar-alt"></i>July 17,2022
+            </div>
+            <a href="#" class="title">post title goes here</a>
+            <p>lorem ipsum dolor, sit amet construction</p>
+            <a href="#" class="link">read more</a>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="image">
+            <img src="images/digital4.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <i class="fas fa-calendar-alt"></i>July 17,2022
+            </div>
+            <a href="#" class="title">post title goes here</a>
+            <p>lorem ipsum dolor, sit amet construction</p>
+            <a href="#" class="link">read more</a>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="image">
+            <img src="images/digital5.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <i class="fas fa-calendar-alt"></i>July 17,2022
+            </div>
+            <a href="#" class="title">post title goes here</a>
+            <p>lorem ipsum dolor, sit amet construction</p>
+            <a href="#" class="link">read more</a>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="image">
+            <img src="images/digital6.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <i class="fas fa-calendar-alt"></i>July 17,2022
+            </div>
+            <a href="#" class="title">post title goes here</a>
+            <p>lorem ipsum dolor, sit amet construction</p>
+            <a href="#" class="link">read more</a>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="image">
+            <img src="images/digital7.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <i class="fas fa-calendar-alt"></i>July 17,2022
+            </div>
+            <a href="#" class="title">post title goes here</a>
+            <p>lorem ipsum dolor, sit amet construction</p>
+            <a href="#" class="link">read more</a>
+          </div>
+        </div>
+      </div>
+            <!-- recent posts section ends here -->
+
         <section id="price-table">
             <div class="text-center">
                 <h5 class="common-h5">PRICING PLAN</h5>
@@ -638,6 +736,34 @@
         <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <Script src="js/extrenaljq.js" type="text/javascript"></Script>
+
+        <!-- script section for recent post slidebar starts here -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".post-container").owlCarousel({
+          pagination: false,
+          autoplay: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            700: {
+              items: 2,
+            },
+            1000: {
+              items: 3,
+            },
+            1200: {
+              items: 4,
+            },
+          },
+        });
+      });
+    </script>
+        <!-- script section for recent post slidebar ends here -->
 </body>
 <script>
     $(document).ready(function() {
