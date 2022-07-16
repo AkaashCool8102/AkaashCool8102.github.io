@@ -619,6 +619,12 @@ section#project {
   margin-top: 200px;
 }
 
+.common-h2 span {
+  font-weight: 700;
+  font-size: 47px;
+  color: #0d1944;
+}
+
 .basic-price-col {
   float: left;
   width: 30%;
