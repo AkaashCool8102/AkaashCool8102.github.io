@@ -61,7 +61,7 @@ section {
   padding-top: 0.5rem;
 }
 
-.btn {
+.btn1 {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
@@ -74,7 +74,7 @@ section {
   border-radius: 0.5rem;
 }
 
-.btn:hover {
+.btn1:hover {
   background: none;
   color: #000;
 }
