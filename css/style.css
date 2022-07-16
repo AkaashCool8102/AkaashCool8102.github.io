@@ -619,7 +619,7 @@ section#project {
   margin-top: 200px;
 }
 
-#price-table .text-center .common-h2 span .lable-common {
+span .lable-common {
   font-weight: 700;
   font-size: 47px;
   color: #0d1944;
