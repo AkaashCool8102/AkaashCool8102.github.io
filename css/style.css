@@ -1197,7 +1197,7 @@ hr.footer-hr {
   background-color: blue;
   height: 80vh;
   min-height: 600px;
-  background-image: url(../images/digital-flyer.png);
+  background-image: url("../images/digital-flyer.png");
   background-position: center bottom;
   background-size: cover;
   display: flex;
