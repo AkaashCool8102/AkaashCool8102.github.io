@@ -1175,6 +1175,12 @@ input.submit-btn:hover {
   }
 }
 
+@media (max-width: 770px) {
+  .feature-col h4 {
+    font-size: 12px;
+  }
+}
+
 p.copyright-footer {
   text-align: center;
   font-family: "Rubik";
