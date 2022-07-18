@@ -1197,7 +1197,7 @@ hr.footer-hr {
   background-color: blue;
   height: 80vh;
   min-height: 600px;
-  background-image: url("https://i.ibb.co/HNvHSyV/image-header.jpg");
+  background-image: url(../images/digital-flyer.png);
   background-position: center bottom;
   background-size: cover;
   display: flex;
@@ -1241,6 +1241,7 @@ hr.footer-hr {
 .logo1 {
   height: 130px;
   width: 130px;
+  color: white;
 }
 
 .main1 {
@@ -1256,6 +1257,7 @@ hr.footer-hr {
 
 .arrow1 {
   margin-top: 60px;
+  color: #000;
 }
 
 .section11,
@@ -1437,7 +1439,7 @@ hr.footer-hr {
   padding-bottom: 3.2rem;
   max-width: 60%;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.75rem;
   font-weight: 1000;
 }
