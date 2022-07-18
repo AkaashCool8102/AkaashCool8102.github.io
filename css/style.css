@@ -227,6 +227,7 @@ body .post-container {
 
 .post-container {
   margin-top: 130px;
+  /* width: 160%; */
 }
 
 .post-container .post {
@@ -1314,25 +1315,13 @@ hr.footer-hr {
 }
 
 .section21 .left1 {
-  background-image: url("../images/image-graphic-design.jpg");
+  background-image: url("../images/digital-flyer1.png");
   background-position: center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-}
-
-.section21 .left1 p {
-  color: #000;
-}
-
-.section21 .left1 h1 {
-  color: #fff;
-}
-
-.section21 .left1 #des {
-  color: black;
 }
 
 .left1 h1 {
@@ -1345,6 +1334,17 @@ hr.footer-hr {
   line-height: 1.8;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 16px;
+}
+
+#des {
+  color: salmon;
+  font-size: 20px;
+}
+
+@media (max-width: 1355px) {
+  #des {
+    font-size: 13px;
+  }
 }
 
 .left1 .button1 {
