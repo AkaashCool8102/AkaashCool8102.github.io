@@ -210,7 +210,7 @@ section {
   margin-bottom: -150px;
 }
 
-@media (min-width: 770px) {
+@media (min-width: 890px) {
   #bx1 {
     margin-bottom: -500px;
   }
@@ -643,12 +643,33 @@ section.header-bg-parent:after {
 .count-col {
   float: right;
   width: 50%;
+  margin-top: 30px;
 }
 
 .stat {
   float: left;
   width: 30%;
+  margin-top: 125px;
 }
+
+.count-sub-col {
+  margin-left: -30px;
+}
+
+@media (min-width: 894px) {
+  .stat {
+    margin-top: 195px;
+  }
+}
+
+@media (min-width: 988px) {
+  .stat {
+    margin-top: 100px;
+  }
+}
+/* .count-sub-col {
+
+} */
 
 .stat-info-par {
   float: right;
